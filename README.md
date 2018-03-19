@@ -7,6 +7,8 @@ Spring Boot - Amazon S3 Integration
 In this sample application, I provide an example of integrating
 Amazon S3 with a Spring Boot (Java) back-end application.
 
+I wrote a blog post regarding this implementation [here](https://medium.com/@levioza/storing-your-blobs-on-a-cloud-storage-provider-amazon-s3-da6c1515cc76).
+
 ## Configuration
 
 In order to run this project, you will need to configure an Amazon S3 Bucket.
