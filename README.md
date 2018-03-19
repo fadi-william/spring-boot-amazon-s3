@@ -1,6 +1,9 @@
 Spring Boot - Amazon S3 Integration
 ===================================
 
+[![Build Status](https://travis-ci.org/levioza/spring-boot-amazon-s3.svg?branch=master)](https://travis-ci.org/levioza/spring-boot-amazon-s3)
+[![Code Coverage](https://img.shields.io/sonar/https/sonarcloud.io/fr.levioza.hipster%3Aamazon-s3/coverage.svg)](https://sonarcloud.io/dashboard?id=fr.levioza.hipster%3Aamazon-s3)
+
 In this sample application, I provide an example of integrating
 Amazon S3 with a Spring Boot (Java) back-end application.
 
@@ -35,7 +38,7 @@ and move it to `src/main/resources/config/`. (This file is ignored by git for se
 
 3. Configure your env variables using the provided shell script by typing `source ./amazon_s3_env.sh`. On Windows, you can use [cygwin](http://www.cygwin.com/) or setup the env variables manually.
 
-4. Run the application using `./run_app.sh`
+4. Run the application using `./run_app.sh`.
 
 ## Continuous Integration
 
