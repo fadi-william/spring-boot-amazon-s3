@@ -1,0 +1,16 @@
+sudo: false
+language: java
+env:
+- MAVEN_OPTS: '-Dmaven.repo.local=.m2'
+cache:
+  directories:
+  - .m2/
+branches:
+  only:
+  - master
+notifications:
+  email: false
+script:
+- ./ci_script.sh
+after_success:
+- ./report_coverage.sh

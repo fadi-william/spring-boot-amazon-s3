@@ -1,0 +1,19 @@
+# Spring Configuration.
+spring:
+    application:
+        name: amazon-s3
+    jackson:
+        # Ignore null values during serialization.
+        default-property-inclusion: non_null
+
+# Server Configuration.
+server:
+    port: 8080
+
+# Amazon S3 Configuration
+storage:
+  bucketName: ${amazonS3BucketName}
+  apiKey: ${amazonS3ApiKey}
+  apiSecret: ${amazonS3ApiSecret}
+  region: eu-west-1
+  urlExpiration: 60 # In minutes.
